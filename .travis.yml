@@ -8,7 +8,7 @@ before_install:
 
 
 script:
-  - docker run -e CI=true longntbui/docker-react npm run test -- --coverage
+  - docker run -e CI=true longntbui/docker-react npm run test
 
 
 deploy:
